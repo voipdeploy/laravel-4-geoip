@@ -8,6 +8,7 @@ return array(
 	'maxmind' => array(
 		'type'			=> 'database', // database or web_service
 		'user_id' 		=> '',
-		'license_key' 	=> ''
+		'license_key' 	=> '',
+        'database_path' => ''
 	)
 );

@@ -1,6 +1,6 @@
 {
-    "name": "torann/geoip",
-    "description": "Supports the two main GeoIP services (infoDB and Maxmind).",
+    "name": "voipdeploy/geoip",
+    "description": "Supports the two main GeoIP services (infoDB and Maxmind). Fork of torann/geoip package for OctoberCMS plugins.",
     "keywords": ["laravel", "laravel4", "geoip", "location", "geolocation"],
 	"license": "BSD 2-Clause",
     "authors": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Torann\\GeoIP": "src/"
+            "Voipdeploy\\GeoIP": "src/"
         }
     },
     "extra": {

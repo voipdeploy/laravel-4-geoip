@@ -1,4 +1,4 @@
-<?php namespace Torann\GeoIP;
+<?php namespace Voipdeploy\GeoIP;
 
 use Illuminate\Support\Facades\Facade;
 

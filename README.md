@@ -13,7 +13,7 @@ Determine the geographical location of website visitors based on their IP addres
 To get the latest version of GeoIP simply require it in your `composer.json` file.
 
 ~~~
-"torann/geoip": "dev-master"
+"voipdeploy/geoip": "dev-master"
 ~~~
 
 You'll then need to run `composer install` to download it and have the autoloader updated.
@@ -23,7 +23,7 @@ Once GeoIP is installed you need to register the service provider with the appli
 ~~~php
 'providers' => array(
 
-    'Torann\GeoIP\GeoIPServiceProvider',
+    'Voipdeploy\GeoIP\GeoIPServiceProvider',
 
 )
 ~~~
@@ -33,7 +33,7 @@ GeoIP also ships with a facade which provides the static syntax for creating col
 ~~~php
 'aliases' => array(
 
-    'GeoIP' => 'Torann\GeoIP\GeoIPFacade',
+    'GeoIP' => 'Voipdeploy\GeoIP\GeoIPFacade',
 
 )
 ~~~
