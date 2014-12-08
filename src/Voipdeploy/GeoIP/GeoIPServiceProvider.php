@@ -19,7 +19,7 @@ class GeoIPServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('torann/geoip');
+        $this->package('voipdeploy/geoip');
 
         // Temp to use in closure.
         $app = $this->app;
